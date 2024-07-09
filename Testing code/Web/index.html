@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavor Preferences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile">
+                <!--Add profile and resize in css-->
+                <img src="profile_icon.png" alt="profile-icon">
+                <span>李沛宸 v1.1blablabla</span>
+            </div>
+            <div class="tabs">
+                <button id="food-preferences-tab" class="active">飲食偏好</button>
+                <button id="profile-tab">Profile</button>
+            </div>
+        </div>
+
+        <div id="food-preferences" class="content active">
+            <div class="section">
+                <h3>你喜歡的食物</h3>
+                <div class="tags">
+                    <span>雞肉肉肉</span><span>×</span>
+                    <!-- Add more tags as needed -->
+                </div>
+                <button class="add-button">+</button>
+            </div>
+            <div class="section">
+                <h3>你不喜歡的食物</h3>
+                <div class="tags">
+                    <span>雞肉肉肉</span><span>×</span>
+                    <!-- Add more tags as needed -->
+                </div>
+                <button class="add-button">+</button>
+            </div>
+            <div class="section">
+                <h3>你忌口的食物</h3>
+                <div class="tags">
+                    <span>雞肉肉肉</span><span>×</span>
+                    <!-- Add more tags as needed -->
+                </div>
+                <button class="add-button">+</button>
+            </div>
+            <div class="slider-section">
+                <h3>每次推薦的食物數量</h3>
+                <input type="range" min="1" max="5" value="3" class="slider" id="food-quantity">
+            </div>
+        </div>
+
+        <div id="profile" class="content">
+            <h3>你的專屬機器人角色</h3>
+            <div class="robot-avatars">
+                <div class="avatar"></div>
+                <div class="avatar"></div>
+                <div class="avatar"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

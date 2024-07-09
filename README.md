@@ -1,7 +1,7 @@
 # Me_nu
 
-<div align="center">
-  <img src="images/Icon.png" alt="Alt text" width="50"/>
+<div align="left">
+  <img src="images/Icon.png" alt="Alt text" width="200"/>
 </div>
 
 - Open HCI 2024

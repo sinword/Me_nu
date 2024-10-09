@@ -1,7 +1,7 @@
 # Me_nu
 
 <div align="left">
-  <img src="Poster.png" alt="Alt text" width="200"/>
+  <img src="Poster.png" alt="Alt text">
 </div>
 
 - Open HCI 2024
